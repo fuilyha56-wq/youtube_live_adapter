@@ -1,0 +1,9 @@
+{
+  "allowed": [
+    "ls",
+    "Get-ChildItem",
+    "Get-Content",
+    "$sitePackages"
+  ],
+  "denied": []
+}

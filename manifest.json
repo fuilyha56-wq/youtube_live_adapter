@@ -1,0 +1,25 @@
+{
+    "name": "youtube_live_adapter",
+    "display_name": "YouTube Live Adapter",
+    "version": "0.1.0",
+    "description": "YouTube 直播间弹幕/SC/会员消息接入适配器，通过 Inner Tube API 轮询获取直播间消息并投递至 Neo-MoFox 消息总线",
+    "author": "MoFox Team",
+    "dependencies": {
+        "plugins": [],
+        "components": []
+    },
+    "include": [
+        {
+            "component_type": "adapter",
+            "component_name": "youtube_live_adapter",
+            "dependencies": []
+        }
+    ],
+    "entry_point": "plugin.py",
+    "min_core_version": "1.2.0-alpha",
+    "python_dependencies": [
+        "httpx>=0.27.0"
+    ],
+    "categories": ["chat"],
+    "tags": ["youtube", "live", "danmaku", "superchat", "adapter"]
+}
